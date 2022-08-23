@@ -39958,9 +39958,9 @@ declare namespace Phaser {
             destroy(): void;
 
             /**
-             * Static method for creating object URL using URL API and setting it as image 'src' attribute.
+             * Static method for creating object URL using URL API and setting it as image 'client' attribute.
              * If URL API is not supported (usually on old browsers) it falls back to creating Base64 encoded url using FileReader.
-             * @param image Image object which 'src' attribute should be set to object URL.
+             * @param image Image object which 'client' attribute should be set to object URL.
              * @param blob A Blob object to create an object URL for.
              * @param defaultType Default mime type used if blob type is not available.
              */
@@ -39969,7 +39969,7 @@ declare namespace Phaser {
             /**
              * Static method for releasing an existing object URL which was previously created
              * by calling {@link File#createObjectURL} method.
-             * @param image Image object which 'src' attribute should be revoked.
+             * @param image Image object which 'client' attribute should be revoked.
              */
             static revokeObjectURL(image: HTMLImageElement): void;
 

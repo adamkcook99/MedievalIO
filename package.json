@@ -1,8 +1,8 @@
 {
-  "name": "amongus-tutorial",
+  "name": "MedievalIO",
   "version": "1.0.0",
-  "description": "A workshop for getting started with Phaser",
-  "main": "src/index.js",
+  "description": "A simple game",
+  "main": "client/index.js",
   "scripts": {
     "build-client": "webpack",
     "build-client-watch": "webpack -w",
